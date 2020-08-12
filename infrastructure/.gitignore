@@ -1,0 +1,17 @@
+node_modules/
+cdk.out/
+cdk.context.json
+
+# Covers JetBrains IDEs:
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# dotenv environment variables file
+.env
+.env.test
+
+index.js

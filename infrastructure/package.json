@@ -1,0 +1,27 @@
+{
+  "name": "infrastructure",
+  "version": "1.0.0",
+  "description": "infrastructure",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Miguel Lima",
+    "url": "https://"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@aws-cdk/aws-ecs-patterns": "^1.54.0",
+    "@types/node": "^8.10.38",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "*",
+    "@aws-cdk/aws-ecs": "*",
+    "@aws-cdk/aws-elasticloadbalancingv2": "*",
+    "@aws-cdk/core": "*"
+  }
+}
